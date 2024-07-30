@@ -1,0 +1,84 @@
+body {
+  background-image: url('./assets/valley.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Avenir', sans-serif;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(75deg, rgba(20, 23, 33, 0.8) 0%, rgba(20, 23, 33, 0.9) 50%, rgba(20, 23, 33, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-card {
+  width: 90%;
+  max-width: 400px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+  font-size: 36px;
+  color: #e8e8e8;
+  margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+  font-size: 16px;
+  color: #afafaf;
+  margin-bottom: 1rem;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-label {
+  font-size: 14px;
+  color: #afafaf;
+  margin-bottom: 0.5rem;
+}
+
+.auth-input {
+  background-color: #3e404b;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  width: 94%;
+}
+
+.auth-button {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #1cacfa;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #1de916;
+}
+
+.chat-wrapper {
+  height: 80vh;
+  width: 80%;
+  margin-left: 10%;
+  color: white;
+  background: rgb(43, 47, 60);
+}
